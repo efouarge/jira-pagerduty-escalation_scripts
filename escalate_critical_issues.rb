@@ -6,7 +6,7 @@ require_relative 'lib/jira_utils.rb'
 require_relative 'lib/pagerduty_info.rb'
 require_relative 'lib/pagerduty_utils.rb'
 
-puts "#{Time.now}\n Escalating critical issues..."
+puts "#{Time.now}\nEscalating critical issues..."
 jira = JiraUtils.new(JiraInfo::GET_CRITICAL_ISSUES, JiraInfo::JIRA_PROJECT_KEY['Enter JIRA Project Name here'])
 issue_list = jira.get_issue_list
 issue_count = issue_list.count
