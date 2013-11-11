@@ -7,7 +7,7 @@ require_relative 'lib/pagerduty_info.rb'
 require_relative 'lib/pagerduty_utils.rb'
 
 puts "#{Time.now}\nEscalating urgent or ignored issues..."
-jira = JiraUtils.new(JiraInfo::GET_URGENT_AND_IGNORED_ISSUES, JiraInfo::JIRA_PROJECT_KEY['Enter JIRA Project Name here'])
+jira = JiraUtils.new(JiraInfo::GET_IGNORED_ISSUES, JiraInfo::JIRA_PROJECT_KEY['Enter JIRA Project Name here'])
 issue_list = jira.get_issue_list
 issue_count = issue_list.count
 
