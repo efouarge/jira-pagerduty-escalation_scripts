@@ -9,10 +9,10 @@ This is a set of Bash and Ruby scripts that can be customized to automate the es
 
 ### Dependencies
 
--Java Runtime Environment (OpenJDK or Sun JRE; version 6 and above)
--Ruby 2.0 (probably will work on 1.9.3, but was only tested on Ruby 2.0)
--Atlassian CLI Interface (<https://marketplace.atlassian.com/plugins/org.swift.atlassian.cli>)
--Pagerduty gem (<https://github.com/envato/pagerduty>)
+- Java Runtime Environment (OpenJDK or Sun JRE; version 6 and above)
+- Ruby 2.0 (probably will work on 1.9.3, but was only tested on Ruby 2.0)
+- Atlassian CLI Interface (<https://marketplace.atlassian.com/plugins/org.swift.atlassian.cli>)
+- Pagerduty gem (<https://github.com/envato/pagerduty>)
 
 ### Optional
 
