@@ -5,7 +5,7 @@ Automate escalation of JIRA issues to PagerDuty!
 
 ### Description
 
-This is a set of Bash and Ruby scripts that can be customized to automate the escalation of particular JIRA issues matching a JQL query to PagerDuty. It uses Bob Swift's Atlassian CLI Interface as an API interface into a JIRA instance, and uses the Pagerduty gem as an API interface into PagerDuty. You can also use the Whenever gem in order to setup cron automation, and which is already added to the Gemfile in this repo, but that's optional. 
+This is a set of Bash and Ruby scripts that can be customized to automate the escalation of particular JIRA issues matching a JQL query to PagerDuty. It uses Bob Swift's Atlassian CLI as an API interface into a JIRA instance, and uses the Pagerduty gem as an API interface into PagerDuty. You can also use the Whenever gem in order to setup cron automation, and which is already added to the Gemfile in this repo, but that's optional. 
 
 ### Dependencies
 
